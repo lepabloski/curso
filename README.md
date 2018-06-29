@@ -4,7 +4,7 @@ Mi intencion en esta rama es mostrar la instalacion de lodash y sus tipos usando
 
 Requisitos para la instalacion tener instalado [yarn](https://yarnpkg.com/en/docs/install#windows-stable)
 
-
+Esta tama pertence al articulo de Medium de [Lodash y Angular]()
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
