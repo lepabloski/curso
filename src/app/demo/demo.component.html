@@ -1,0 +1,21 @@
+<div class="cols">
+    <form [formGroup]="buscarForm">
+        <input type="text" formControlName="buscarBanda">
+        <button (click)="buscar()">Buscar</button>
+    </form>
+</div>
+<h2>Un listado de objetos: </h2>
+<ul>
+    <li *ngFor="let obj of vector">
+        <span>{{obj.id}}</span>
+        <h2>{{obj.nombre}}</h2>
+        <p>{{obj.descripcion}}</p>
+    </li>
+    <button (click)="ordenar()">Ordenar</button>
+</ul>
+
+<div *ngIf="objs">
+    <span>{{objs.id}}</span>
+    <h2>{{objs.nombre}}</h2>
+    <p>{{objs.descripcion}}</p>
+</div>
