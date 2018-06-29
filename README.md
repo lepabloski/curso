@@ -1,5 +1,11 @@
 # Cursos
 
+Mi intencion en esta rama es mostrar la instalacion de lodash y sus tipos usando yarn y crear una pequeña app con un manejo basico.
+
+Requisitos para la instalacion tener instalado [yarn](https://yarnpkg.com/en/docs/install#windows-stable)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
